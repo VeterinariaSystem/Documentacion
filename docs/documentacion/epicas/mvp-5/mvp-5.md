@@ -19,5 +19,7 @@ Son las historias de usuario (H.U.)para gestion de citas:
 | [MVP-5-4](./mvp-5-4) | Mostrar Citas | El sistema debe permitir mostrar en una tabla todas las citas que se ingresaron a esa veterinaria | <div style={{backgroundColor: "#f25c5c", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Alta</div>  |
 | [MVP-5-5](./mvp-5-5) | Mostrar detalle de la cita | El sistema debe permitir mostrar de forma mas detallada los datos de las citas | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
 
+## Mockap
+Pantallazo de alpha:
 
 

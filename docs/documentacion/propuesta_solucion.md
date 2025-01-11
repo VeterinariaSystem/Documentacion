@@ -45,14 +45,3 @@ Son las funcionalidades del sistema.
 | MVP-4  | Gestión de usuarios y roles  | Módulo para administrar usuarios y sus roles.                                                | <div style={{backgroundColor: "#f2a93b", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Mediana</div>    |
 | [MVP-5](./epicas/mvp-5#historias-usuario)  | Gestión de citas             | Agenda integrada para organizar citas entre profecionales y tutores de las mascotas.                               | <div style={{backgroundColor: "#f25c5c", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Alta</div>  |
 | MVP-6 | Gestión de tutores y fichas | Sistema que gestiona a los tutores y a sus respectivas mascotas | <div style={{backgroundColor: "#f25c5c", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Alta</div>  |
-
-## Arquitectura de Software
-Se presentan las arquitecturas del software
-
-### Arquitectura Fisica
-Componentes fisicos a utilizar
-![Arquitectura física](/img/arquitectura_fisica.png)
-
-### Arquitectura Logica
-Componentes logicos a utilizar
-![Arquitectura logico](/img/arquitectura_logica.png)

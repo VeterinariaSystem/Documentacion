@@ -22,3 +22,14 @@ El sistema trabajara con las siguientes herramientas:
 - Jira (Para planificacion)
 - Drive (Para guardar archivos)
 
+## Arquitectura de Software
+Se presentan las arquitecturas del software
+
+### Arquitectura Fisica
+Componentes fisicos a utilizar
+![Arquitectura física](/img/arquitectura_fisica.png)
+
+### Arquitectura Logica
+Componentes logicos a utilizar
+![Arquitectura logico](/img/arquitectura_logica.png)
+
