@@ -33,7 +33,8 @@ Son las funcionalidades del sistema.
 - Gestión de tutores y fichas
 - Gestión de laboratorio
 - Gestión de hospitalización
-- Panel de administrador 
+- Panel de administrador
+- Buscador de datos
 
 ### Épicas para el MVC
 
@@ -45,3 +46,4 @@ Son las funcionalidades del sistema.
 | MVP-4  | Gestión de usuarios y roles  | Módulo para administrar usuarios y sus roles.                                                | <div style={{backgroundColor: "#f2a93b", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Mediana</div>    |
 | [MVP-5](./epicas/mvp-5#historias-usuario)  | Gestión de citas             | Agenda integrada para organizar citas entre profecionales y tutores de las mascotas.                               | <div style={{backgroundColor: "#f25c5c", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Alta</div>  |
 | MVP-6 | Gestión de tutores y fichas | Sistema que gestiona a los tutores y a sus respectivas mascotas | <div style={{backgroundColor: "#f25c5c", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Alta</div>  |
+| MVP-7 | Buscador de datos | Permite buscar cualquier dato mediante un texto ingresado | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div>  |
