@@ -4,24 +4,28 @@ sidebar_position: 2
 
 # Agregar Cita
 
-Como veterinaria nesesito agregar, eliminar, modificar y mostrar citas.
+Como veterinaria nesesito agregar citas para poder visualizarlas en mi sistema.
 
-En la siguiente imagen reprecenta el flujo general de la epica:
-![Task Flow de Gestionar citas](/img/gestionar_citas/gestionar_citas_diagrama.svg)
+En la siguiente imagen reprecenta el flujo general de la historia de usuario:
+![Task Flow de Gestionar citas](/img/gestionar_citas/agregar_cita/agregar_cita_diagrama.svg)
 
-## Historias usuario
-Son las historias de usuario (H.U.)para gestion de citas:
+## Criterios de Aceptacion
+Son los criterios de aceptacion (C.A.) para agregar citas:
 
-| Id | H.U. | Descripcion | Prioridad |
-|--------| -------- | -------- | --------|
-| [MVP-5-1](./mvp-5-1) | Agregar Cita | El sistema debe permitir agregar cita | <div style={{backgroundColor: "#f2a93b", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Mediana</div> |
-| [MVP-5-2](./mvp-5-2) | Cancelar Cita | El sistema debe permitir cancelar la cita | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
-| [MVP-5-3](./mvp-5-3) | Modificar cita | El sistema debe permitir modificar la cita | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
-| [MVP-5-4](./mvp-5-4) | Mostrar Citas | El sistema debe permitir mostrar en una tabla todas las citas que se ingresaron a esa veterinaria | <div style={{backgroundColor: "#f25c5c", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Alta</div>  |
-| [MVP-5-5](./mvp-5-5) | Mostrar detalle de la cita | El sistema debe permitir mostrar de forma mas detallada los datos de las citas | <div style={{backgroundColor: "#f2a93b", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Mediana</div> |
-| [MVP-5-6](./mvp-5-6) | Ordenar Citas | El sistema debe permitir ordenar las citas de mayor a menor dependiendo del parametro elegido por el usuario | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
-| [MVP-5-7](./mvp-5-7) | Filtrar Citas | El sistema debe permitir filtrar las citas dependiendo del parametro elegido por el usuario | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
-| [MVP-5-8](./mvp-5-8) | Buscar citas | El sistema debe permitir buscar las citas dependiendo del parametro escrito por el usuario | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
+| Id | C.A. | Descripcion | 
+|-------------------- | -------- | -------- | 
+| MVP-5-1-1 | La cita debe tener el nombre del tutor | El nombre del tutor debe tener como maximo 200 caracteres y como minimo 1 caracter. Este campo se autocompleta ingresando el rut |
+| MVP-5-1-2 | La cita debe incluir el rut del tutor | El formato del rut debe ser "12.345.678-9", o identificador del pais de recidencia. (El nombre del atributo rut, puede cambiar). Este campo es obligatorio y no se deben aceptar cadenas vacias. |
+| MVP-5-1-3 | La cita debe tener el motivo de la consulta | El motivo debe tener como maximo 500 caracteres. Este campo es obligatorio y no se deben aceptar cadenas vacias- |
+| MVP-5-1-4 | La cita debe tener un estado | Cuando se crea la cita, debe tener como estado "Aceptado" |
+| MVP-5-1-5 | La cita debe tener una fecha y hora | Se deben mostrar todos los horarios disponibles (Explicado en gestion de horarios) que tiene la veterinaria. El formato de la fecha sera la siguiente "12/01/2025" -> Y de la hora sera "20:30 hrs.". Este campo es obligatorio y no acepta informacion vacia. |
+| MVP-5-1-6 | La cita debe tener un precio | la cita debe permitir agregar el precio. El cual sera un numero donde los "," seran la representacion del decimal. El formato es "$20.000 CLP", se debe representar que tipo de moneda se cancelo. Este campo es obligatorio y no acepta informacion vacia. |
+| MVP-5-1-7 | La cita debe tener el nombre de la mascota | El nombre de la mascota debe tener como maximo 200 caracteres y como minimo 1 caracter. Se mostrara una lista desplegable con las mascotas ingresadas al sistema, ademas de permitir escribir el nombre para poder econtrarla mas rapido (Autocomple) |
+| MVP-5-1-8 | La cita debe tener el numero ficha de la mascota | El numero de ficha de la mascota debe ser de tipo alfanumerico donde tendra 7 caracteres. El formato es el siguiente "#1F5P6AK". Este campo se mostrara dependiendo de la mascota que se seleccione |
+| MVP-5-1-9 | La cita debe tener un ID | El id de la cita se crea de forma automatica y sera un numero | 
+| MVP-5-1-10 | En caso de que se ingrese un rut que no exista | Cuando un rut no existe, debera permitirse agregar un tutor ( [MVP-6](./mvp-6) ) y luego volver a la pantalla para agregar cita pero con los datos del tutor agregado |
+| MVP-5-1-11 | En caso de que no se encuentre una mascota | Cuando se requiera escoger una mascota diferente a las ingresadas al sistema, se permitira agregar una mascota ( [MVP-6](./mvp-6) ) y luego  volver a la pantalla para agregar cita pero con los datos del tutor de la mascota, y ademas los datos de la mascota agregada al sistema |
+
 
 
 ## Mockaps
