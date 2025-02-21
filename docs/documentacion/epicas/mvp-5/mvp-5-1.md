@@ -29,6 +29,9 @@ Son los criterios de aceptacion (C.A.) para agregar citas:
 
 
 ## Mockaps
-![Mockap de Gestionar citas general](/img/gestionar_citas/gestionar_citas_mockap_general.svg)
 
-![Mockap de Gestionar citas tabla](/img/gestionar_citas/gestionar_citas_mockap_tabla.svg)
+### Agregar sin error
+![Mockap de Gestionar citas general](/img/gestionar_citas/agregar_cita/agregar_cita_mockap.svg)
+
+### Agregar con marca de error
+![Mockap de Gestionar citas tabla](/img/gestionar_citas/agregar_cita/agregar_cita_error_mockap.svg)
