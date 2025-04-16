@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Agregar Cita
 
-Como veterinaria nesesito agregar citas para poder visualizarlas en mi sistema.
+Como veterinaria necesito agregar citas para poder visualizarlas en mi sistema.
 
 En la siguiente imagen reprecenta el flujo general de la historia de usuario:
 ![Task Flow de Gestionar citas](/img/gestionar_citas/agregar_cita/agregar_cita_diagrama.svg)
