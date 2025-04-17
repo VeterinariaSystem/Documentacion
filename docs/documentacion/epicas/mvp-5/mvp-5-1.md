@@ -26,6 +26,7 @@ Son los criterios de aceptacion (C.A.) para agregar citas:
 | MVP-5-1-10 | La cita debe tener un ID | El id de la cita se crea de forma automatica y sera un numero | 
 | MVP-5-1-11 | En caso de que se ingrese un rut que no exista | Cuando un rut no existe, debera permitirse agregar un tutor ( MVP-6 ) y luego volver a la pantalla para agregar cita pero con los datos del tutor agregado |
 | MVP-5-1-12 | En caso de que no se encuentre una mascota | Cuando se requiera escoger una mascota diferente a las ingresadas al sistema, se permitira agregar una mascota ( MVP-6 ) y luego  volver a la pantalla para agregar cita pero con los datos del tutor de la mascota, y ademas los datos de la mascota agregada al sistema |
+| MVP-5-1-14 | La cita debe tener un tipo de urgencia | La cita debe permitir agregar el tipo de urgencia, las cuales pueden ser "Alta", "Media" y "Baja", este campo es obligatorio. |
 
 
 

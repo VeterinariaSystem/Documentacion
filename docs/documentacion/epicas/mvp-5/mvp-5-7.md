@@ -13,9 +13,12 @@ Son los criterios de aceptacion (C.A.) para filtrar citas:
 
 | Id | C.A. | Descripcion | 
 |-------------------- | -------- | -------- | 
-| MVP-5-7-1 | Filtrar por estado |  |
-| MVP-5-7-2 | Filtrar por fecha | rango de fecha |
-| MVP-5-7-3 | Filtrar por tipo de urgencia |  |
+| MVP-5-7-1 | Mostrar filtro por estado | El sistema debera de mostrar las opciones "Aceptado", "Cancelado", "Pendiente" y "ninguno" para poder filtrar por el estado de la cita. |
+| MVP-5-7-2 | Filtrar por estado | EL sistema debera de mostrar los datos de la citas que su estado sea el mismo que el seleccionado por el usuario, en caso de ser "Ninguno", no se aplicara restricciones a los datos. |
+| MVP-5-7-3 | Mostrar filtro por fecha | El sistema debera de mostrar la opcion de ingresar dos fechas tentativas en formato "DD-MM-YYYY". |
+| MVP-5-7-4 | Filtrar por fecha | El sistema solo se mostrara los datos que se encuentren entre las fechas tentativas ingresadas. |
+| MVP-5-7-5 | Mostrar filtro por tipo de urgencia | El sistema debera de mostrar las opciones "Alta", "Media", "Baja" y "ninguno" para poder filtrar por el tipo de urgencia de la cita.  |
+| MVP-5-7-6 | Filtrar por tipo de urgencia | EL sistema debera de mostrar los datos de la citas que su tipo de urgencia sea el mismo que el seleccionado por el usuario, en caso de ser "Ninguno", no se aplicara restricciones a los datos. |
 
 
 

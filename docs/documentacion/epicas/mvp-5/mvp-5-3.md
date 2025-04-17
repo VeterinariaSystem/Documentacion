@@ -25,6 +25,7 @@ Son los criterios de aceptacion (C.A.) para modificar citas:
 | MVP-5-3-10 | Modificar los datos de la cita | Al presionar "Modificar", si todos los datos son validos, el sistema actualizara la cita con los datos nuevos |
 | MVP-5-3-11 | Notificar la modificacion de la cita al tutor | Cuando la veterinaria modifique la cita, se notificara al tutor mediante un correo con los nuevos datos modificados |
 | MVP-5-3-12 | Notificar la modificacion de la cita a la veterinaria | Cuado el tutor modifique la cita, se notificara a la veterinaria mediante un correo con los nuevos datos de a cita |
+| MVP-5-3-13 | La cita debe tener un tipo de urgencia | La cita debe permitir agregar el tipo de urgencia, las cuales pueden ser "Alta", "Media" y "Baja", este campo es modificable. |
 
 
 ## Mockaps
