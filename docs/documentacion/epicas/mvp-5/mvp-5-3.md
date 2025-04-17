@@ -27,14 +27,6 @@ Son los criterios de aceptacion (C.A.) para modificar citas:
 | MVP-5-3-12 | Notificar la modificacion de la cita a la veterinaria | Cuado el tutor modifique la cita, se notificara a la veterinaria mediante un correo con los nuevos datos de a cita |
 
 
-
-
-
-
-
-
-
-
 ## Mockaps
 
 ### Modificar sin error
