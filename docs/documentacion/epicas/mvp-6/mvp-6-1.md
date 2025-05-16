@@ -23,7 +23,7 @@ Son los criterios de aceptacion (C.A.) para agregar tutores:
 | MVP-6-1-7 | El tutor debera de tener un historial de citas | El tutor debera de tener un registro de todas las citas que haya soliitado. |
 | MVP-6-1-8 | El tutor debera de tener una cantidad de mascotas | El tutor debera de tener registrado la cantidad de mascotas que tenga. |
 | MVP-6-1-9 | El tutor debera de tener la opcion de ver con mas detalles | El tutor tendra una opcion que permita ver con mas detalles los datos de este. |
-| MVP-6-1-10 | El tutor debera dee elegir el pais de residencia | El tutor tendra que seleccionar su pais de residencia de la lista que se le presentara. |
+| MVP-6-1-10 | El tutor debera de elegir el pais de residencia | El tutor tendra que seleccionar su pais de residencia de la lista que se le presentara. |
 
 
 ## Mockaps
