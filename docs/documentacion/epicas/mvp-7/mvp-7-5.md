@@ -1,16 +1,16 @@
 ---
-sidebar_position: 18
+sidebar_position: 22
 ---
 
-# Agregar Ficha
+# Mostrar Detalle Ficha
 
-Como veterinaria necesito agregar fichas para poder tener datos en mi sistema.
+Como veterinaria necesito mostrar el detalle de las fichas para poder visualizarlas de mejor forma los datos de las mascotas en mi sistema.
 
 <!-- En la siguiente imagen reprecenta el flujo general de la historia de usuario:
 ![Task Flow de Gestionar citas](/img/gestionar_citas/agregar_cita/agregar_cita_diagrama.svg) -->
 
 ## Criterios de Aceptacion
-Son los criterios de aceptacion (C.A.) para agregar fichas:
+Son los criterios de aceptacion (C.A.) para mostrar detalle fichas:
 
 | Id | C.A. | Descripcion | 
 |-------------------- | -------- | -------- | 
@@ -20,7 +20,7 @@ Son los criterios de aceptacion (C.A.) para agregar fichas:
 | MVP-7-1-4 | La ficha debera de tener el tipo de especie | El tipo de especie, sera un listado con los tipos de especies que hay(canino, felino, reptil, ave, rodeor, etc...), este campo es obligatorio. |
 | MVP-7-1-5 | La ficha debera de tener la fecha de nacimiento de la mascota | la fecha de nacimiento debera de tener el formato DD-MM-YYYY, este campo es obligatorio. |
 | MVP-7-1-6 | La ficha debera de tener la raza de la mascota | EL nombre de la raza, debera de tener maximo 200 caracteres y como minimo 1, este campo es obligatorio. |
-| MVP-7-1-7 | La ficha debera de tener el sexo de la mascota | El sexo de la mascota, podra ser "Macho" o "Hembra", este campo es obligatorio. |
+| MVP-7-1-7 | La ficha debera de tener el sexo de la mascota | El sexo de la mascota, podra ser "Macho" o "Hembra". |
 | MVP-7-1-8 | La ficha debera de tener las enfermedades de la mascota | Las enfermedades de la mascota, deberan de tener como maximo 500 caracteres y como minimo 0, este campo es opcional. |
 | MVP-7-1-9 | La ficha debera de tener el peso de la mascota | El peso de la mascota, debera ser decimal con 2 cifras despues de la ",", ejemplo: "xx,xx", este campo obligatorio. |
 
