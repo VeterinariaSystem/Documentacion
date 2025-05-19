@@ -14,15 +14,13 @@ Son los criterios de aceptacion (C.A.) para mostrar detalle fichas:
 
 | Id | C.A. | Descripcion | 
 |-------------------- | -------- | -------- | 
-| MVP-7-1-1 | La ficha debera de tener el nombre de la mascota | El nombre de la mascota, debera de tener como maximo 200 caracteres y como minimo 1 caracter, este campo es obligatorio. |
-| MVP-7-1-2 | La ficha podra tener apellido de la mascota | El apellido de la mascota debera de tener como maximo 200 caracteres y como minimo 0 caracter, este campo es opcional. |
-| MVP-7-1-3 | La ficha debera de tener un identificador | El formato del identificador unico y debera de contar con minimo 5 caracteres, este campo es obligatorio y se generara automaticamente. |
-| MVP-7-1-4 | La ficha debera de tener el tipo de especie | El tipo de especie, sera un listado con los tipos de especies que hay(canino, felino, reptil, ave, rodeor, etc...), este campo es obligatorio. |
-| MVP-7-1-5 | La ficha debera de tener la fecha de nacimiento de la mascota | la fecha de nacimiento debera de tener el formato DD-MM-YYYY, este campo es obligatorio. |
-| MVP-7-1-6 | La ficha debera de tener la raza de la mascota | EL nombre de la raza, debera de tener maximo 200 caracteres y como minimo 1, este campo es obligatorio. |
-| MVP-7-1-7 | La ficha debera de tener el sexo de la mascota | El sexo de la mascota, podra ser "Macho" o "Hembra". |
-| MVP-7-1-8 | La ficha debera de tener las enfermedades de la mascota | Las enfermedades de la mascota, deberan de tener como maximo 500 caracteres y como minimo 0, este campo es opcional. |
-| MVP-7-1-9 | La ficha debera de tener el peso de la mascota | El peso de la mascota, debera ser decimal con 2 cifras despues de la ",", ejemplo: "xx,xx", este campo obligatorio. |
+| MVP-7-5-1 | Mostrar datos en la tabla | Dentro de "ver mas", se debera de mostrar los siguientes datos de la ficha: Nombre de la mascota, apellido de la mascota, identificador de la ficha, tipo de especie, tipo de especie, fecha de nacimiento de mascota, años de la mascota(calculando), raza de la mascota, sexo de la mascota, enfermedades de la mascota y una lista con los pesos de la mascota junto a su fecha de ingreso(formato DD-MM-YYYY). |
+| MVP-7-5-2 | formato fecha en la tabla del tutor | La fecha dentro de la tabla debera de ser mostrada en formato DD-MM-YYYY. |
+| MVP-7-5-3 | formato hora en la tabla del tutor | La hora dentro de la tabla debera de ser mostrada en formato HH:MM. |
+| MVP-7-5-4 | formato del motivo en la tabla del tutor | El motivo dentro de la tabla debera de ser mostrada en en campo con 500 caracteres visibles, el texto debera de estar en minuscula y sin tildes. |
+| MVP-7-5-5 | Tipo de urgencia en la tabla del tutor | En la tabla del tutor, se debera de mostrar el tipo de urgencia los cuales pueden ser "Alta", "Media", "Baja". |
+| MVP-7-5-6 | Redireccionar a la ficha de la mascota | Dentro de la tabla del tutor, al hacer click encima del rut de la mascota debera de redireccionar a la ficha de la mascota. |
+| MVP-7-5-7 | volver de la ficha de la mascota  | Al regresar de la ficha de la mascota, el sistema  no debera de haber realizado ningun cambio. |
 
 
 ## Mockaps
