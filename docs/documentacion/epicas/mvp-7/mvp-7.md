@@ -18,9 +18,7 @@ Son las historias de usuario (H.U.)para gestion de fichas de mascota.
 | [MVP-7-3](./mvp-7-3) | Eliminar ficha | El sistema debe permitir eliminar datos del tutor | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
 | [MVP-7-4](./mvp-7-4) | Mostrar fichas | El sistema debe permitir mostrar en una tabla todas las citas que se ingresaron a esa veterinaria | <div style={{backgroundColor: "#f25c5c", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Alta</div>  |
 | [MVP-7-5](./mvp-7-5) | Mostrar detalle de la ficha | El sistema debe permitir mostrar de forma mas detallada los datos de las citas | <div style={{backgroundColor: "#f2a93b", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Mediana</div> |
-| [MVP-7-6](./mvp-7-6) | Ordenar fichas | El sistema debe permitir ordenar las fichas de mayor a menor dependiendo del parametro elegido por el usuario | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
-| [MVP-7-7](./mvp-7-7) | Filtrar fichas | El sistema debe permitir filtrar las fichas dependiendo del parametro elegido por el usuario | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
-| [MVP-7-8](./mvp-7-8) | Buscar fichas | El sistema debe permitir buscar las fichas dependiendo del parametro escrito por el usuario | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
+| [MVP-7-6](./mvp-7-8) | Buscar fichas | El sistema debe permitir buscar las fichas dependiendo del parametro escrito por el usuario | <div style={{backgroundColor: "#25c2a0", color: "white", display: "inline-block", padding: "5px 10px", borderRadius: "20px"}}>Baja</div> |
 
 
 <!-- ## Mockaps
