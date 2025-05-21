@@ -1,6 +1,3 @@
----
-sidebar_position: 3
----
 
 # Cancelar Cita
 Como veterinaria necesito cancelar las citas para tener disponibilidad en mi sistema.
