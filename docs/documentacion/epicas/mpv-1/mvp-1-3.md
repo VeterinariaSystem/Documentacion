@@ -2,7 +2,7 @@
 sidebar_position: 22
 ---
 
-# Buscar y Seleccionar Veterinarias
+# Visualización Veterinarias
 
 Como tutor, necesito poder buscar veterinarias cercanas basadas en mi ubicación registrada, ver su información detallada (contacto, horarios, servicios/capacidades) y filtrar la búsqueda por disponibilidad en fechas específicas, para poder elegir la veterinaria más conveniente para mis necesidades.
 

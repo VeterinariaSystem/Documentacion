@@ -2,7 +2,7 @@
 sidebar_position: 20
 ---
 
-# Gestionar mi Perfil de Tutor
+# Configurar perfil del tutor.
 
 Como tutor, necesito poder actualizar mi información de contacto (número de celular y ubicación) y recibir confirmación de estos cambios, para asegurar que la comunicación con las veterinarias sea efectiva y mi información de localización para servicios esté al día.
 
