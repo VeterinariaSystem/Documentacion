@@ -18,8 +18,8 @@ Son los criterios de aceptacion (C.A.) para mostrar citas:
 | MVP-5-4-2 | Mostrar tutores de las citas  | El sistema debera de mostrar en la tabla el "nombre del tutor" y el "rut del tutor", este ultimo debera de estar con "." y "-". |
 | MVP-5-4-3 | Redireccionar al perfil del tutor  | El sistema debera de permitir que al presionar sobre el "rut" del tutor, se muetre el perfil de este. |
 | MVP-5-4-4 | Volver del perfil del tutor  | El sistema no debera de realizar actualizaciones cuando se regrese del perfil del tutor. |
-| MVP-5-4-5 | Mostrar identificador de las citas  | El sistema debera de mostrar el numero de la cita. |
-| MVP-5-4-6 | Mostrar motivo de las citas  | El sistema debera de mostrar el motivo de la cita, se mostrara un maximo de 100 caracteres. |
+| MVP-5-4-5 | Mostrar identificador de las citas  | El sistema debera de mostrar el id de la cita. |
+| MVP-5-4-6 | Mostrar motivo de las citas  | El sistema debera de mostrar el motivo de la cita, se mostrara un maximo de 500 caracteres. |
 | MVP-5-4-7 | Mostrar tipo de urgencia de la citas| El sistema debe de mostrar el tipo de urgencia, las cuales pueden ser "Alta", "Media" y "Baja". |
 | MVP-5-4-7 | Mostrar estado de las citas  | El sistema debera de mostrar si la cita esta "Aceptada", "Cancelada" o "Pendiente". |
 | MVP-5-4-8 | Mostrar fecha de las citas  | El sistema debera de mostrar la fecha de las citas en el formato "DD-MM-YYYY". |
